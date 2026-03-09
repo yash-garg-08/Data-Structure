@@ -18,13 +18,24 @@ A collection of DSA problems and implementations in C++, built for practice and 
 ### Trees
 | Problem | Solution |
 |---------|----------|
-| Binary Tree Inorder Traversal | [Binary Tree Inorder Traversal.cpp](Tree/Binary%20Tree%20Inorder%20Traversal.cpp) |
-| Binary Tree Preorder Traversal | [Binary Tree Preorder Traversal.cpp](Tree/Binary%20Tree%20Preorder%20Traversal.cpp) |
-| Binary Tree Postorder Traversal | [Binary Tree Postorder Traversal.cpp](Tree/Binary%20Tree%20Postorder%20Traversal.cpp) |
-| Maximum Depth of Binary Tree | [Maximum Depth of Binary Tree.cpp](Tree/Maximum%20Depth%20of%20Binary%20Tree.cpp) |
-| Diameter of Binary Tree | [Diameter of Binary Tree.cpp](Tree/Diameter%20of%20Binary%20Tree.cpp) |
-| Balanced Binary Tree | [Balanced Binary Tree.cpp](Tree/Balanced%20Binary%20Tree.cpp) |
 | Lowest Common Ancestor of a Binary Tree | [Lowest_Common_Ancestor_of_a_Binary_Tree.cpp](Lowest_Common_Ancestor_of_a_Binary_Tree.cpp) |
+| Balanced Binary Tree | [Balanced Binary Tree.cpp](Tree/Balanced Binary Tree.cpp) |
+| Binary Tree Inorder Traversal | [Binary Tree Inorder Traversal.cpp](Tree/Binary Tree Inorder Traversal.cpp) |
+| Binary Tree Level Order Traversal | [Binary Tree Level Order Traversal.cpp](Tree/Binary Tree Level Order Traversal.cpp) |
+| Binary Tree Postorder Traversal | [Binary Tree Postorder Traversal.cpp](Tree/Binary Tree Postorder Traversal.cpp) |
+| Binary Tree Preorder Traversal | [Binary Tree Preorder Traversal.cpp](Tree/Binary Tree Preorder Traversal.cpp) |
+| Binary Tree Right Side View | [Binary Tree Right Side View.cpp](Tree/Binary Tree Right Side View.cpp) |
+| Binary Tree Zigzag Level Order Traversal | [Binary Tree Zigzag Level Order Traversal.cpp](Tree/Binary Tree Zigzag Level Order Traversal.cpp) |
+| Bottom View of Binary Tree | [Bottom View of Binary Tree.cpp](Tree/Bottom View of Binary Tree.cpp) |
+| Diameter of Binary Tree | [Diameter of Binary Tree.cpp](Tree/Diameter of Binary Tree.cpp) |
+| Left View of Binary Tree | [Left View of Binary Tree.cpp](Tree/Left View of Binary Tree.cpp) |
+| Maximum Depth of Binary Tree | [Maximum Depth of Binary Tree.cpp](Tree/Maximum Depth of Binary Tree.cpp) |
+| Path Sum | [Path Sum.cpp](Tree/Path Sum.cpp) |
+| Same Tree | [Same Tree.cpp](Tree/Same Tree.cpp) |
+| Sum Tree | [Sum Tree.cpp](Tree/Sum Tree.cpp) |
+| Top View of Binary Tree | [Top View of Binary Tree.cpp](Tree/Top View of Binary Tree.cpp) |
+| Tree Boundary Traversal | [Tree Boundary Traversal.cpp](Tree/Tree Boundary Traversal.cpp) |
+| Vertical Order Traversal of a Binary Tree | [Vertical Order Traversal of a Binary Tree.cpp](Tree/Vertical Order Traversal of a Binary Tree.cpp) |
 
 ### Binary Search
 | Problem | Solution |
