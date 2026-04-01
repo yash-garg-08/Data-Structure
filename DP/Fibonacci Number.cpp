@@ -30,3 +30,24 @@ public:
 // Time Complexity: O(n) - Each Fibonacci number from 0 to n is calculated only once and stored in the dp array.
 // Space Complexity: O(n) - The dp array of size n+1 is used to
 
+// solution 3: using tabulation
+
+class Solution {
+public:
+    int fib(int n) {
+        if(n <= 1){
+            return n;
+        }
+        vector<int> dp(n+1, -1);
+        dp[0] = 0;
+        dp[1] = 1;
+
+        for(int i=2; i<=n; i++){
+            dp[i] = dp[i-1] + dp[i-2];
+        }
+        return dp[n];
+    }
+};
+
+// Time Complexity: O(n) - Each Fibonacci number from 2 to n is calculated once in a bottom-up manner.
+// Space Complexity: O(n) - The dp array of size n+1 is used to store the Fibonacci numbers up to n.

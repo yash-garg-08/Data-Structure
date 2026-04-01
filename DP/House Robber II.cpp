@@ -1,46 +1,52 @@
+// link - https://leetcode.com/problems/house-robber-ii/description/
+
+// solution 1: using recursion
+
 class Solution {
 public:
-    // int t[101];
-    // int solve(vector<int>& nums, int i, int n){
+    int t[101];
+    int solve(vector<int>& nums, int i, int n){
 
-    //     if (i > n){
-    //         return 0;
-    //     }
+        if (i > n){
+            return 0;
+        }
         
-    //     if(t[i] != -1)
-    //         return t[i];
+        if(t[i] != -1)
+            return t[i];
 
-    //     int steal = nums[i] + solve(nums, i+2, n);
-    //     int skip = solve(nums, i+1, n);
+        int steal = nums[i] + solve(nums, i+2, n);
+        int skip = solve(nums, i+1, n);
 
-    //     return t[i] = max(steal, skip);
+        return t[i] = max(steal, skip);
 
-    // }
-    // int n;
+    }
+
     int rob(vector<int>& nums) {
-        // first approach
+        int n = nums.size();
 
-        // int n = nums.size();
+        if(n == 1){
+            return nums[0];
+        }
 
-        // if(n == 1){
-        //     return nums[0];
-        // }
+        if(n == 2){
+            return max(nums[0], nums[1]);
+        }
 
-        // if(n == 2){
-        //     return max(nums[0], nums[1]);
-        // }
+        memset(t, -1, sizeof(t));
+        int stealing_one = solve(nums, 0, n-2);
 
-        // memset(t, -1, sizeof(t));
-        // int stealing_one = solve(nums, 0, n-2);
+        memset(t, -1, sizeof(t));
+        int stealing_two = solve(nums, 1, n-1);
 
-        // memset(t, -1, sizeof(t));
-        // int stealing_two = solve(nums, 1, n-1);
+        return max(stealing_one, stealing_two);
+    }
+};
 
-        // return max(stealing_one, stealing_two);
+// solution 2: using tabulation
 
-
-
-        // 2nd approach
+class Solution {
+public:
+    int rob(vector<int>& nums) {
 
         int n = nums.size();
 
